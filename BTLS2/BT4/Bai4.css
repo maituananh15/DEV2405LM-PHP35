@@ -1,0 +1,32 @@
+
+#main{
+    background-color: #ccc;
+    margin-top: 50px;
+    margin-left: 300px;
+    width: 800px;
+}
+#main ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+#main li a {
+    width: 130px;
+    text-decoration: none;
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 8px 15px;
+}
+#main li:last-child {
+    border-right: none;
+  }
+#main li {
+    float: left;
+    border-right:1px solid #f8f5f5;
+}
+#main ul li a:hover,
+.selected{
+    background-color: #792b90; color: #edeaea !important;
+}
